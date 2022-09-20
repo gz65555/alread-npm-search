@@ -1,0 +1,34 @@
+{
+  "name": "no",
+  "version": "0.0.1",
+  "main": "index.js",
+  "type": "module",
+  "author": {
+    "name": "gz65555",
+    "email": "gz65555@gmail.com"
+  },
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc"
+  },
+  "bin": {
+    "npms": "./bin/cli.js"
+  },
+  "files": [
+    "dist",
+    "bin"
+  ],
+  "types": "types",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.12",
+    "@types/inquirer": "^7.3.3",
+    "@types/lodash-es": "^4.17.6",
+    "prettier": "^2.3.2",
+    "typescript": "^4.4.2"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.21",
+    "node-fetch": "^3.2.10"
+  }
+}
